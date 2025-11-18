@@ -130,6 +130,87 @@
             transform: translateY(-2px);
             box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
         }
+
+        .stats {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-bottom: 40px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .testimonials {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-bottom: 40px;
+        }
+
+        .testimonials h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #333;
+            text-align: center;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        .testimonial-text {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.25rem;
+        }
+
+        .testimonial-role {
+            font-size: 0.9rem;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -138,6 +219,23 @@
             <h1>AI Economics Consulting</h1>
             <p class="tagline">Strategic guidance for the AI-driven economy</p>
         </header>
+
+        <section class="stats">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">$50M+</div>
+                    <div class="stat-label">AI Investment Analyzed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">35%</div>
+                    <div class="stat-label">Average Cost Reduction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Companies Advised</div>
+                </div>
+            </div>
+        </section>
 
         <section class="services">
             <h2>Our Services</h2>
@@ -157,6 +255,27 @@
                 <div class="service-card">
                     <h3>Risk Assessment</h3>
                     <p>Identify and mitigate economic risks in AI implementation and scaling.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Their analysis helped us cut AI infrastructure costs by 40% while improving model performance. The ROI was clear within the first quarter."</p>
+                    <div class="testimonial-author">Sarah Chen</div>
+                    <div class="testimonial-role">CTO, TechVenture Inc.</div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The economic modeling they provided gave us the confidence to scale our AI operations. We now have a clear roadmap for sustainable growth."</p>
+                    <div class="testimonial-author">Michael Rodriguez</div>
+                    <div class="testimonial-role">VP of Innovation, DataCorp</div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Outstanding strategic guidance. They helped us understand not just the technology, but the true economic impact of AI on our business model."</p>
+                    <div class="testimonial-author">Emily Watson</div>
+                    <div class="testimonial-role">CEO, FutureScale</div>
                 </div>
             </div>
         </section>

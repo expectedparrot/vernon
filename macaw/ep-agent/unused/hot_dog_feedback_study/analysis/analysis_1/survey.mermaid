@@ -1,0 +1,89 @@
+flowchart TD
+    Start(("Start"))
+    overall_satisfaction["
+overall_satisfaction
+Type: linear_scale
+Overall, how would you rate the hot dog?
+Options: 1, 2, 3, ... (+2)"]
+    bun_rating["
+bun_rating
+Type: linear_scale
+How would you rate the bun?
+Options: 1, 2, 3, ... (+2)"]
+    meat_rating["
+meat_rating
+Type: linear_scale
+How would you rate the hot dog itself...
+Options: 1, 2, 3, ... (+2)"]
+    temperature["
+temperature
+Type: multiple_choice
+How was the temperature of the hot dog?
+Options: Too cold, Lukewarm, Just right, ... (+1)"]
+    toppings_used["
+toppings_used
+Type: checkbox
+Which toppings/condiments did you use...
+Options: Ketchup, Mustard, Relish, ... (+5)"]
+    toppings_rating["
+toppings_rating
+Type: linear_scale
+How would you rate the quality/freshn...
+Options: 1, 2, 3, ... (+2)"]
+    presentation["
+presentation
+Type: likert_five
+The hot dog was well-assembled and lo...
+Options: Strongly disagree, Disagree, Neutral, ... (+2)"]
+    portion_size["
+portion_size
+Type: multiple_choice
+How was the portion size?
+Options: Too small, Just right, Too large"]
+    best_part["
+best_part
+Type: free_text
+What did you like most about the hot ..."]
+    improvement["
+improvement
+Type: free_text
+What could be improved?"]
+    additional_comments["
+additional_comments
+Type: free_text
+Any other comments or suggestions?"]
+    would_recommend["
+would_recommend
+Type: likert_five
+I would recommend this hot dog to oth...
+Options: Strongly disagree, Disagree, Neutral, ... (+2)"]
+    EndOfSurvey(("End"))
+    Start --> overall_satisfaction
+    overall_satisfaction --> bun_rating
+    bun_rating --> meat_rating
+    meat_rating --> temperature
+    temperature --> toppings_used
+    toppings_used --> toppings_rating
+    toppings_rating --> presentation
+    presentation --> portion_size
+    portion_size --> best_part
+    best_part --> improvement
+    improvement --> additional_comments
+    additional_comments --> would_recommend
+    would_recommend --> EndOfSurvey
+    %% Styling
+    classDef question fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef startEnd fill:#e8f5e9,stroke:#388e3c,stroke-width:3px,font-weight:bold
+    class Start,EndOfSurvey startEnd
+    class overall_satisfaction question
+    class bun_rating question
+    class meat_rating question
+    class temperature question
+    class toppings_used question
+    class toppings_rating question
+    class presentation question
+    class portion_size question
+    class best_part question
+    class improvement question
+    class additional_comments question
+    class would_recommend question

@@ -1,0 +1,362 @@
+agent.agent_index,agent.agent_instruction,agent.agent_name,answer.dietary_options_used,answer.dietary_satisfaction,answer.environment_ratings,answer.food_quality_ratings,answer.improvement_areas,answer.overall_satisfaction,answer.pricing_perception,answer.service_ratings,answer.suggestions,answer.variety_satisfaction,answer.visit_frequency,cache_keys.dietary_options_used_cache_key,cache_keys.dietary_satisfaction_cache_key,cache_keys.environment_ratings_cache_key,cache_keys.food_quality_ratings_cache_key,cache_keys.improvement_areas_cache_key,cache_keys.overall_satisfaction_cache_key,cache_keys.pricing_perception_cache_key,cache_keys.service_ratings_cache_key,cache_keys.suggestions_cache_key,cache_keys.variety_satisfaction_cache_key,cache_keys.visit_frequency_cache_key,cache_used.dietary_options_used_cache_used,cache_used.dietary_satisfaction_cache_used,cache_used.environment_ratings_cache_used,cache_used.food_quality_ratings_cache_used,cache_used.improvement_areas_cache_used,cache_used.overall_satisfaction_cache_used,cache_used.pricing_perception_cache_used,cache_used.service_ratings_cache_used,cache_used.suggestions_cache_used,cache_used.variety_satisfaction_cache_used,cache_used.visit_frequency_cache_used,comment.dietary_options_used_comment,comment.dietary_satisfaction_comment,comment.environment_ratings_comment,comment.food_quality_ratings_comment,comment.improvement_areas_comment,comment.overall_satisfaction_comment,comment.pricing_perception_comment,comment.service_ratings_comment,comment.suggestions_comment,comment.variety_satisfaction_comment,comment.visit_frequency_comment,generated_tokens.dietary_options_used_generated_tokens,generated_tokens.dietary_satisfaction_generated_tokens,generated_tokens.environment_ratings_generated_tokens,generated_tokens.food_quality_ratings_generated_tokens,generated_tokens.improvement_areas_generated_tokens,generated_tokens.overall_satisfaction_generated_tokens,generated_tokens.pricing_perception_generated_tokens,generated_tokens.service_ratings_generated_tokens,generated_tokens.suggestions_generated_tokens,generated_tokens.variety_satisfaction_generated_tokens,generated_tokens.visit_frequency_generated_tokens,iteration.iteration,model.frequency_penalty,model.inference_service,model.logprobs,model.max_tokens,model.model,model.model_index,model.presence_penalty,model.temperature,model.top_logprobs,model.top_p,prompt.dietary_options_used_system_prompt,prompt.dietary_options_used_user_prompt,prompt.dietary_satisfaction_system_prompt,prompt.dietary_satisfaction_user_prompt,prompt.environment_ratings_system_prompt,prompt.environment_ratings_user_prompt,prompt.food_quality_ratings_system_prompt,prompt.food_quality_ratings_user_prompt,prompt.improvement_areas_system_prompt,prompt.improvement_areas_user_prompt,prompt.overall_satisfaction_system_prompt,prompt.overall_satisfaction_user_prompt,prompt.pricing_perception_system_prompt,prompt.pricing_perception_user_prompt,prompt.service_ratings_system_prompt,prompt.service_ratings_user_prompt,prompt.suggestions_system_prompt,prompt.suggestions_user_prompt,prompt.variety_satisfaction_system_prompt,prompt.variety_satisfaction_user_prompt,prompt.visit_frequency_system_prompt,prompt.visit_frequency_user_prompt,question_options.dietary_options_used_question_options,question_options.dietary_satisfaction_question_options,question_options.environment_ratings_question_options,question_options.food_quality_ratings_question_options,question_options.improvement_areas_question_options,question_options.overall_satisfaction_question_options,question_options.pricing_perception_question_options,question_options.service_ratings_question_options,question_options.suggestions_question_options,question_options.variety_satisfaction_question_options,question_options.visit_frequency_question_options,question_text.dietary_options_used_question_text,question_text.dietary_satisfaction_question_text,question_text.environment_ratings_question_text,question_text.food_quality_ratings_question_text,question_text.improvement_areas_question_text,question_text.overall_satisfaction_question_text,question_text.pricing_perception_question_text,question_text.service_ratings_question_text,question_text.suggestions_question_text,question_text.variety_satisfaction_question_text,question_text.visit_frequency_question_text,question_type.dietary_options_used_question_type,question_type.dietary_satisfaction_question_type,question_type.environment_ratings_question_type,question_type.food_quality_ratings_question_type,question_type.improvement_areas_question_type,question_type.overall_satisfaction_question_type,question_type.pricing_perception_question_type,question_type.service_ratings_question_type,question_type.suggestions_question_type,question_type.variety_satisfaction_question_type,question_type.visit_frequency_question_type,raw_model_response.dietary_options_used_cost,raw_model_response.dietary_options_used_input_price_per_million_tokens,raw_model_response.dietary_options_used_input_tokens,raw_model_response.dietary_options_used_one_usd_buys,raw_model_response.dietary_options_used_output_price_per_million_tokens,raw_model_response.dietary_options_used_output_tokens,raw_model_response.dietary_options_used_raw_model_response,raw_model_response.dietary_satisfaction_cost,raw_model_response.dietary_satisfaction_input_price_per_million_tokens,raw_model_response.dietary_satisfaction_input_tokens,raw_model_response.dietary_satisfaction_one_usd_buys,raw_model_response.dietary_satisfaction_output_price_per_million_tokens,raw_model_response.dietary_satisfaction_output_tokens,raw_model_response.dietary_satisfaction_raw_model_response,raw_model_response.environment_ratings_cost,raw_model_response.environment_ratings_input_price_per_million_tokens,raw_model_response.environment_ratings_input_tokens,raw_model_response.environment_ratings_one_usd_buys,raw_model_response.environment_ratings_output_price_per_million_tokens,raw_model_response.environment_ratings_output_tokens,raw_model_response.environment_ratings_raw_model_response,raw_model_response.food_quality_ratings_cost,raw_model_response.food_quality_ratings_input_price_per_million_tokens,raw_model_response.food_quality_ratings_input_tokens,raw_model_response.food_quality_ratings_one_usd_buys,raw_model_response.food_quality_ratings_output_price_per_million_tokens,raw_model_response.food_quality_ratings_output_tokens,raw_model_response.food_quality_ratings_raw_model_response,raw_model_response.improvement_areas_cost,raw_model_response.improvement_areas_input_price_per_million_tokens,raw_model_response.improvement_areas_input_tokens,raw_model_response.improvement_areas_one_usd_buys,raw_model_response.improvement_areas_output_price_per_million_tokens,raw_model_response.improvement_areas_output_tokens,raw_model_response.improvement_areas_raw_model_response,raw_model_response.overall_satisfaction_cost,raw_model_response.overall_satisfaction_input_price_per_million_tokens,raw_model_response.overall_satisfaction_input_tokens,raw_model_response.overall_satisfaction_one_usd_buys,raw_model_response.overall_satisfaction_output_price_per_million_tokens,raw_model_response.overall_satisfaction_output_tokens,raw_model_response.overall_satisfaction_raw_model_response,raw_model_response.pricing_perception_cost,raw_model_response.pricing_perception_input_price_per_million_tokens,raw_model_response.pricing_perception_input_tokens,raw_model_response.pricing_perception_one_usd_buys,raw_model_response.pricing_perception_output_price_per_million_tokens,raw_model_response.pricing_perception_output_tokens,raw_model_response.pricing_perception_raw_model_response,raw_model_response.service_ratings_cost,raw_model_response.service_ratings_input_price_per_million_tokens,raw_model_response.service_ratings_input_tokens,raw_model_response.service_ratings_one_usd_buys,raw_model_response.service_ratings_output_price_per_million_tokens,raw_model_response.service_ratings_output_tokens,raw_model_response.service_ratings_raw_model_response,raw_model_response.suggestions_cost,raw_model_response.suggestions_input_price_per_million_tokens,raw_model_response.suggestions_input_tokens,raw_model_response.suggestions_one_usd_buys,raw_model_response.suggestions_output_price_per_million_tokens,raw_model_response.suggestions_output_tokens,raw_model_response.suggestions_raw_model_response,raw_model_response.variety_satisfaction_cost,raw_model_response.variety_satisfaction_input_price_per_million_tokens,raw_model_response.variety_satisfaction_input_tokens,raw_model_response.variety_satisfaction_one_usd_buys,raw_model_response.variety_satisfaction_output_price_per_million_tokens,raw_model_response.variety_satisfaction_output_tokens,raw_model_response.variety_satisfaction_raw_model_response,raw_model_response.visit_frequency_cost,raw_model_response.visit_frequency_input_price_per_million_tokens,raw_model_response.visit_frequency_input_tokens,raw_model_response.visit_frequency_one_usd_buys,raw_model_response.visit_frequency_output_price_per_million_tokens,raw_model_response.visit_frequency_output_tokens,raw_model_response.visit_frequency_raw_model_response,reasoning_summary.dietary_options_used_reasoning_summary,reasoning_summary.dietary_satisfaction_reasoning_summary,reasoning_summary.environment_ratings_reasoning_summary,reasoning_summary.food_quality_ratings_reasoning_summary,reasoning_summary.improvement_areas_reasoning_summary,reasoning_summary.overall_satisfaction_reasoning_summary,reasoning_summary.pricing_perception_reasoning_summary,reasoning_summary.service_ratings_reasoning_summary,reasoning_summary.suggestions_reasoning_summary,reasoning_summary.variety_satisfaction_reasoning_summary,reasoning_summary.visit_frequency_reasoning_summary,scenario.scenario_index,validated.dietary_options_used_validated,validated.dietary_satisfaction_validated,validated.environment_ratings_validated,validated.food_quality_ratings_validated,validated.improvement_areas_validated,validated.overall_satisfaction_validated,validated.pricing_perception_validated,validated.service_ratings_validated,validated.suggestions_validated,validated.variety_satisfaction_validated,validated.visit_frequency_validated
+0,You are answering questions as if you were a human. Do not break character.,Agent_3,"['Vegetarian', 'Vegan', 'Gluten-free', 'Dairy-free', 'Nut-free', 'Halal', 'Kosher', 'Low-calorie/healthy options']",3,"{'Cleanliness of dining area': 'Good', 'Cleanliness of food service area': 'Very Good', 'Seating availability': 'Fair', 'Overall atmosphere and ambiance': 'Good'}","{'Taste and flavor': 'Excellent', 'Freshness': 'Very Good', 'Temperature (hot foods hot, cold foods cold)': 'Good', 'Portion sizes': 'Very Good'}","['Food quality', 'Service speed', 'Cleanliness']",5,Overpriced,"{'Speed of service during peak hours': 'Fair', 'Speed of service during off-peak hours': 'Very Good', 'Staff friendliness': 'Excellent', 'Staff knowledge and helpfulness': 'Very Good'}","Improving a university cafeteria like the one at NYU can greatly enhance the dining experience for students, staff, and visitors. Here are some suggestions that could be considered:
+
+1. **Menu Variety and Special Diets**: 
+   - Introduce a wider range of cuisines to cater to diverse tastes and cultural backgrounds.
+   - Ensure there are ample options for those with dietary restrictions, such as vegetarian, vegan, gluten-free, and allergen-free meals.
+
+2. **Local and Sustainable Sourcing**:
+   - Partner with local farms and suppliers to offer fresh, seasonal produce.
+   - Highlight sustainable practices by reducing food waste and using eco-friendly packaging.
+
+3. **Healthier Options**:
+   - Provide more nutritious meal choices, emphasizing whole grains, lean proteins, and fresh vegetables.
+   - Include clear labeling of nutritional information and calorie counts.
+
+4. **Improved Dining Environment**:
+   - Enhance the ambiance with comfortable seating, good lighting, and pleasant decor.
+   - Ensure cleanliness and hygiene are top priorities in both dining and kitchen areas.
+
+5. **Technology Integration**:
+   - Implement a mobile app or online platform for pre-ordering meals, checking nutritional information, and providing feedback.
+   - Use digital menus and self-service kiosks to streamline the ordering process.
+
+6. **Flexible Hours and Accessibility**:
+   - Extend operating hours to accommodate students with varying schedules, including late-night study sessions.
+   - Ensure the cafeteria is easily accessible to all, including those with disabilities.
+
+7. **Feedback Mechanism**:
+   - Regularly solicit feedback from students and staff to understand their needs and preferences.
+   - Hold focus groups or surveys to gather detailed insights and make data-driven improvements.
+
+8. **Promotions and Events**:
+   - Organize themed food events or cultural cuisine days to create excitement and engagement.
+   - Offer loyalty programs or discounts to encourage frequent visits.
+
+9. **Sustainability Initiatives**:
+   - Implement programs to reduce single-use plastics and encourage the use of reusable containers.
+   - Promote composting and recycling efforts within the cafeteria.
+
+10. **Staff Training and Customer Service**:
+    - Ensure staff are well-trained in customer service and food safety.
+    - Encourage a friendly and welcoming atmosphere among the cafeteria team.
+
+By focusing on these areas, the NYU cafeteria can improve its offerings and create a more enjoyable and sustainable dining experience for everyone involved.",5,Rarely or never,0b7a929ad8ef1f0e3c83e999095dff8f,21f3d6724fecf9f2e352d10221d014c6,575b8e293771fdecb813efe57eee40c1,4bd3b87ddf50caa40d95015bdaa9cf92,e9eb0490e32414c5f110dd276d530ed3,b88b71dd96f4804b7218ea44453fa63b,6a9543d471ed56562dcd787733fad0dd,d7b39ab62dd41117dd70c5d7b9694d54,2ad5aeb2dc50f4d74320f6555805a224,506e720772aadefdec4c51a665fc6089,c627069caaade5f8a2dead32e64396b0,False,False,False,False,False,False,False,False,False,False,False,I selected all the dietary preferences because I do not have personal dietary needs or preferences.,"The availability and quality of dietary options are generally adequate, but there is room for improvement in terms of variety and catering to specific dietary needs.","The dining area is generally clean, but there's room for improvement. The food service area is well-maintained, contributing positively to the experience. However, seating availability is sometimes limited, leading to a fair rating. The overall atmosphere is good, but not exceptional.","Taste and flavor were excellent, indicating that the dishes were well-seasoned and balanced. Freshness was very good, suggesting that the ingredients were likely sourced recently and maintained well. The temperature was good, meaning there might have been slight inconsistencies in maintaining the ideal temperatures for all dishes. Portion sizes were very good, indicating that servings were generous but not excessive.","Improving food quality ensures a better dining experience, while faster service speed enhances customer satisfaction. Cleanliness is essential for health and comfort.",,"The pricing at the NYU cafeteria is often considered to be on the higher side, especially when compared to other universities or local dining options, which leads many students to perceive it as overpriced.","Speed of service during peak hours can often be challenging, so a ""Fair"" rating is given. Off-peak service is generally better, hence a ""Very Good"" rating. Staff friendliness is rated ""Excellent"" as it is usually a strong point. Staff knowledge and helpfulness are rated ""Very Good"" as they are typically well-informed but can sometimes vary.",,,"I chose this option because I might prefer cooking at home, eating out at local restaurants, or bringing my own food.","['Vegetarian', 'Vegan', 'Gluten-free', 'Dairy-free', 'Nut-free', 'Halal', 'Kosher', 'Low-calorie/healthy options']  
+I selected all the dietary preferences because I do not have personal dietary needs or preferences.","3  
+The availability and quality of dietary options are generally adequate, but there is room for improvement in terms of variety and catering to specific dietary needs.","{""0"": 2, ""1"": 3, ""2"": 1, ""3"": 2}
+
+The dining area is generally clean, but there's room for improvement. The food service area is well-maintained, contributing positively to the experience. However, seating availability is sometimes limited, leading to a fair rating. The overall atmosphere is good, but not exceptional.","{""0"": 4, ""1"": 3, ""2"": 2, ""3"": 3}
+
+Taste and flavor were excellent, indicating that the dishes were well-seasoned and balanced. Freshness was very good, suggesting that the ingredients were likely sourced recently and maintained well. The temperature was good, meaning there might have been slight inconsistencies in maintaining the ideal temperatures for all dishes. Portion sizes were very good, indicating that servings were generous but not excessive.","['Food quality', 'Service speed', 'Cleanliness']
+
+Improving food quality ensures a better dining experience, while faster service speed enhances customer satisfaction. Cleanliness is essential for health and comfort.","As an AI, I don't have personal experiences or opinions, so I can't provide a rating. However, I can help discuss common factors that might influence satisfaction with cafeteria services, such as food quality, variety, pricing, and service.","Overpriced
+
+The pricing at the NYU cafeteria is often considered to be on the higher side, especially when compared to other universities or local dining options, which leads many students to perceive it as overpriced.","{""0"": 1, ""1"": 3, ""2"": 4, ""3"": 3}
+
+Speed of service during peak hours can often be challenging, so a ""Fair"" rating is given. Off-peak service is generally better, hence a ""Very Good"" rating. Staff friendliness is rated ""Excellent"" as it is usually a strong point. Staff knowledge and helpfulness are rated ""Very Good"" as they are typically well-informed but can sometimes vary.","Improving a university cafeteria like the one at NYU can greatly enhance the dining experience for students, staff, and visitors. Here are some suggestions that could be considered:
+
+1. **Menu Variety and Special Diets**: 
+   - Introduce a wider range of cuisines to cater to diverse tastes and cultural backgrounds.
+   - Ensure there are ample options for those with dietary restrictions, such as vegetarian, vegan, gluten-free, and allergen-free meals.
+
+2. **Local and Sustainable Sourcing**:
+   - Partner with local farms and suppliers to offer fresh, seasonal produce.
+   - Highlight sustainable practices by reducing food waste and using eco-friendly packaging.
+
+3. **Healthier Options**:
+   - Provide more nutritious meal choices, emphasizing whole grains, lean proteins, and fresh vegetables.
+   - Include clear labeling of nutritional information and calorie counts.
+
+4. **Improved Dining Environment**:
+   - Enhance the ambiance with comfortable seating, good lighting, and pleasant decor.
+   - Ensure cleanliness and hygiene are top priorities in both dining and kitchen areas.
+
+5. **Technology Integration**:
+   - Implement a mobile app or online platform for pre-ordering meals, checking nutritional information, and providing feedback.
+   - Use digital menus and self-service kiosks to streamline the ordering process.
+
+6. **Flexible Hours and Accessibility**:
+   - Extend operating hours to accommodate students with varying schedules, including late-night study sessions.
+   - Ensure the cafeteria is easily accessible to all, including those with disabilities.
+
+7. **Feedback Mechanism**:
+   - Regularly solicit feedback from students and staff to understand their needs and preferences.
+   - Hold focus groups or surveys to gather detailed insights and make data-driven improvements.
+
+8. **Promotions and Events**:
+   - Organize themed food events or cultural cuisine days to create excitement and engagement.
+   - Offer loyalty programs or discounts to encourage frequent visits.
+
+9. **Sustainability Initiatives**:
+   - Implement programs to reduce single-use plastics and encourage the use of reusable containers.
+   - Promote composting and recycling efforts within the cafeteria.
+
+10. **Staff Training and Customer Service**:
+    - Ensure staff are well-trained in customer service and food safety.
+    - Encourage a friendly and welcoming atmosphere among the cafeteria team.
+
+By focusing on these areas, the NYU cafeteria can improve its offerings and create a more enjoyable and sustainable dining experience for everyone involved.","As an AI, I don't have personal experiences or preferences, so I can't select an option. However, I can help you evaluate the variety of food options based on certain criteria or provide information if needed.","Rarely or never
+
+I chose this option because I might prefer cooking at home, eating out at local restaurants, or bringing my own food.",0,0,openai,False,1000,gpt-4o,0,0,0.5,3,1,,"Which dietary options do you need or prefer? (Select all that apply)
+
+    
+Vegetarian
+    
+Vegan
+    
+Gluten-free
+    
+Dairy-free
+    
+Nut-free
+    
+Halal
+    
+Kosher
+    
+Low-calorie/healthy options
+    
+None of the above
+        
+
+
+
+
+Minimum number of options that must be selected: 1.
+
+
+
+Please respond only with a comma-separated list of the options that apply, with square brackets. E.g., ['Good', 'Bad', 'Ugly']
+
+
+After the answer, you can put a comment explaining your choice on the next line.
+
+",,"How satisfied are you with the availability and quality of dietary options that meet your needs?
+
+1 : Very Dissatisfied
+
+2 : 
+
+3 : 
+
+4 : 
+
+5 : Very Satisfied
+
+Only 1 option may be selected.
+
+Respond only with the code corresponding to one of the options. E.g., ""1"" or ""5"" by itself.
+
+After the answer, you can put a comment explaining why you chose that option on the next line.
+",,"Please rate the cafeteria environment:
+
+Rows:
+    
+0: Cleanliness of dining area
+    
+1: Cleanliness of food service area
+    
+2: Seating availability
+    
+3: Overall atmosphere and ambiance
+    
+
+Columns:
+    
+0: Poor
+    
+1: Fair
+    
+2: Good
+    
+3: Very Good
+    
+4: Excellent
+    
+
+
+Select one column option for each row.
+ Please respond with a dictionary mapping row codes to column codes. E.g., {""0"": 1, ""1"": 3}
+
+
+After the answer, you can put a comment explaining your choices on the next line.
+ ",,"Please rate the following aspects of food quality:
+
+Rows:
+    
+0: Taste and flavor
+    
+1: Freshness
+    
+2: Temperature (hot foods hot, cold foods cold)
+    
+3: Portion sizes
+    
+
+Columns:
+    
+0: Poor
+    
+1: Fair
+    
+2: Good
+    
+3: Very Good
+    
+4: Excellent
+    
+
+
+Select one column option for each row.
+ Please respond with a dictionary mapping row codes to column codes. E.g., {""0"": 1, ""1"": 3}
+
+
+After the answer, you can put a comment explaining your choices on the next line.
+ ",,"What areas would you most like to see improved? (Select up to 3)
+
+    
+Food quality
+    
+Food variety
+    
+Portion sizes
+    
+Pricing
+    
+Service speed
+    
+Staff friendliness
+    
+Cleanliness
+    
+Seating availability
+    
+Hours of operation
+    
+Dietary options
+    
+Sustainable/eco-friendly practices
+        
+
+
+
+
+Minimum number of options that must be selected: 1.
+Maximum number of options that must be selected: 3.
+
+
+
+Please respond only with a comma-separated list of the options that apply, with square brackets. E.g., ['Good', 'Bad', 'Ugly']
+
+
+After the answer, you can put a comment explaining your choice on the next line.
+
+",,"How satisfied are you overall with NYU cafeteria services?
+
+1 : Very Dissatisfied
+
+2 : 
+
+3 : 
+
+4 : 
+
+5 : Very Satisfied
+
+Only 1 option may be selected.
+
+Respond only with the code corresponding to one of the options. E.g., ""1"" or ""5"" by itself.
+
+After the answer, you can put a comment explaining why you chose that option on the next line.
+",,"
+How would you describe the pricing at the NYU cafeteria?
+
+    
+Excellent value for money
+    
+Good value
+    
+Fair value
+    
+Overpriced
+    
+Very overpriced
+    
+
+Only 1 option may be selected.
+
+Respond only with a string corresponding to one of the options.
+
+
+After the answer, you can put a comment explaining why you chose that option on the next line.
+",,"Please rate the following service aspects:
+
+Rows:
+    
+0: Speed of service during peak hours
+    
+1: Speed of service during off-peak hours
+    
+2: Staff friendliness
+    
+3: Staff knowledge and helpfulness
+    
+
+Columns:
+    
+0: Poor
+    
+1: Fair
+    
+2: Good
+    
+3: Very Good
+    
+4: Excellent
+    
+
+
+Select one column option for each row.
+ Please respond with a dictionary mapping row codes to column codes. E.g., {""0"": 1, ""1"": 3}
+
+
+After the answer, you can put a comment explaining your choices on the next line.
+ ",,Please share any specific suggestions or comments for improving the NYU cafeteria:,,"How satisfied are you with the variety of food options available?
+
+1 : Very Dissatisfied
+
+2 : 
+
+3 : 
+
+4 : 
+
+5 : Very Satisfied
+
+Only 1 option may be selected.
+
+Respond only with the code corresponding to one of the options. E.g., ""1"" or ""5"" by itself.
+
+After the answer, you can put a comment explaining why you chose that option on the next line.
+",,"
+How often do you use the NYU cafeteria?
+
+    
+Daily
+    
+3-4 times per week
+    
+1-2 times per week
+    
+A few times per month
+    
+Rarely or never
+    
+
+Only 1 option may be selected.
+
+Respond only with a string corresponding to one of the options.
+
+
+After the answer, you can put a comment explaining why you chose that option on the next line.
+","['Vegetarian', 'Vegan', 'Gluten-free', 'Dairy-free', 'Nut-free', 'Halal', 'Kosher', 'Low-calorie/healthy options', 'None of the above']","[1, 2, 3, 4, 5]","['Poor', 'Fair', 'Good', 'Very Good', 'Excellent']","['Poor', 'Fair', 'Good', 'Very Good', 'Excellent']","['Food quality', 'Food variety', 'Portion sizes', 'Pricing', 'Service speed', 'Staff friendliness', 'Cleanliness', 'Seating availability', 'Hours of operation', 'Dietary options', 'Sustainable/eco-friendly practices']","[1, 2, 3, 4, 5]","['Excellent value for money', 'Good value', 'Fair value', 'Overpriced', 'Very overpriced']","['Poor', 'Fair', 'Good', 'Very Good', 'Excellent']",,"[1, 2, 3, 4, 5]","['Daily', '3-4 times per week', '1-2 times per week', 'A few times per month', 'Rarely or never']",Which dietary options do you need or prefer? (Select all that apply),How satisfied are you with the availability and quality of dietary options that meet your needs?,Please rate the cafeteria environment:,Please rate the following aspects of food quality:,What areas would you most like to see improved? (Select up to 3),How satisfied are you overall with NYU cafeteria services?,How would you describe the pricing at the NYU cafeteria?,Please rate the following service aspects:,Please share any specific suggestions or comments for improving the NYU cafeteria:,How satisfied are you with the variety of food options available?,How often do you use the NYU cafeteria?,checkbox,linear_scale,matrix,matrix,checkbox,linear_scale,multiple_choice,matrix,free_text,linear_scale,multiple_choice,0.0008599999999999999,2.5,120,1162.7906976744189,10.0,56,"{'id': 'chatcmpl-DALwQ7ZMh7AMCL7XUFA9xAWLQGBXW', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': ""['Vegetarian', 'Vegan', 'Gluten-free', 'Dairy-free', 'Nut-free', 'Halal', 'Kosher', 'Low-calorie/healthy options']  \nI selected all the dietary preferences because I do not have personal dietary needs or preferences."", 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_a3cb6d4ca8', 'usage': {'completion_tokens': 56, 'prompt_tokens': 120, 'total_tokens': 176, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.0005449999999999999,2.5,98,1834.8623853211013,10.0,30,"{'id': 'chatcmpl-DALwTKiU6Qkw254E9jlyzfwqpbwJv', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': '3  \nThe availability and quality of dietary options are generally adequate, but there is room for improvement in terms of variety and catering to specific dietary needs.', 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359997, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 30, 'prompt_tokens': 98, 'total_tokens': 128, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.0010675,2.5,123,936.7681498829039,10.0,76,"{'id': 'chatcmpl-DALwQ1g9HwYcfv20PrLvKw0Yl0YTc', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': '{""0"": 2, ""1"": 3, ""2"": 1, ""3"": 2}\n\nThe dining area is generally clean, but there\'s room for improvement. The food service area is well-maintained, contributing positively to the experience. However, seating availability is sometimes limited, leading to a fair rating. The overall atmosphere is good, but not exceptional.', 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 76, 'prompt_tokens': 123, 'total_tokens': 199, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.001275,2.5,126,784.313725490196,10.0,96,"{'id': 'chatcmpl-DALwQm0nFuWHAnDElKncFbrTSviG2', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': '{""0"": 4, ""1"": 3, ""2"": 2, ""3"": 3}\n\nTaste and flavor were excellent, indicating that the dishes were well-seasoned and balanced. Freshness was very good, suggesting that the ingredients were likely sourced recently and maintained well. The temperature was good, meaning there might have been slight inconsistencies in maintaining the ideal temperatures for all dishes. Portion sizes were very good, indicating that servings were generous but not excessive.', 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 96, 'prompt_tokens': 126, 'total_tokens': 222, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.0007375,2.5,139,1355.9322033898306,10.0,39,"{'id': 'chatcmpl-DALwQtoMoeEkMQqbaXbrQ12RQTEud', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': ""['Food quality', 'Service speed', 'Cleanliness']\n\nImproving food quality ensures a better dining experience, while faster service speed enhances customer satisfaction. Cleanliness is essential for health and comfort."", 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 39, 'prompt_tokens': 139, 'total_tokens': 178, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.0007,2.5,92,1428.5714285714287,10.0,47,"{'id': 'chatcmpl-DALwQV0a2HIJ9NCfrXn8MbgW9g9Sa', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': ""As an AI, I don't have personal experiences or opinions, so I can't provide a rating. However, I can help discuss common factors that might influence satisfaction with cafeteria services, such as food quality, variety, pricing, and service."", 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 47, 'prompt_tokens': 92, 'total_tokens': 139, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.000605,2.5,78,1652.892561983471,10.0,41,"{'id': 'chatcmpl-DALwQZn6QaSB9l0YNxMyzqWt9TrcX', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': 'Overpriced\n\nThe pricing at the NYU cafeteria is often considered to be on the higher side, especially when compared to other universities or local dining options, which leads many students to perceive it as overpriced.', 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 41, 'prompt_tokens': 78, 'total_tokens': 119, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.0012900000000000001,2.5,128,775.1937984496124,10.0,97,"{'id': 'chatcmpl-DALwQShfFg04KEXWBcEImjA5sLH4G', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': '{""0"": 1, ""1"": 3, ""2"": 4, ""3"": 3}\n\nSpeed of service during peak hours can often be challenging, so a ""Fair"" rating is given. Off-peak service is generally better, hence a ""Very Good"" rating. Staff friendliness is rated ""Excellent"" as it is usually a strong point. Staff knowledge and helpfulness are rated ""Very Good"" as they are typically well-informed but can sometimes vary.', 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 97, 'prompt_tokens': 128, 'total_tokens': 225, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.004892499999999999,2.5,21,204.3944813490036,10.0,484,"{'id': 'chatcmpl-DALwR4eomC7bWgzez2Ztmrl4QWKZK', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': 'Improving a university cafeteria like the one at NYU can greatly enhance the dining experience for students, staff, and visitors. Here are some suggestions that could be considered:\n\n1. **Menu Variety and Special Diets**: \n   - Introduce a wider range of cuisines to cater to diverse tastes and cultural backgrounds.\n   - Ensure there are ample options for those with dietary restrictions, such as vegetarian, vegan, gluten-free, and allergen-free meals.\n\n2. **Local and Sustainable Sourcing**:\n   - Partner with local farms and suppliers to offer fresh, seasonal produce.\n   - Highlight sustainable practices by reducing food waste and using eco-friendly packaging.\n\n3. **Healthier Options**:\n   - Provide more nutritious meal choices, emphasizing whole grains, lean proteins, and fresh vegetables.\n   - Include clear labeling of nutritional information and calorie counts.\n\n4. **Improved Dining Environment**:\n   - Enhance the ambiance with comfortable seating, good lighting, and pleasant decor.\n   - Ensure cleanliness and hygiene are top priorities in both dining and kitchen areas.\n\n5. **Technology Integration**:\n   - Implement a mobile app or online platform for pre-ordering meals, checking nutritional information, and providing feedback.\n   - Use digital menus and self-service kiosks to streamline the ordering process.\n\n6. **Flexible Hours and Accessibility**:\n   - Extend operating hours to accommodate students with varying schedules, including late-night study sessions.\n   - Ensure the cafeteria is easily accessible to all, including those with disabilities.\n\n7. **Feedback Mechanism**:\n   - Regularly solicit feedback from students and staff to understand their needs and preferences.\n   - Hold focus groups or surveys to gather detailed insights and make data-driven improvements.\n\n8. **Promotions and Events**:\n   - Organize themed food events or cultural cuisine days to create excitement and engagement.\n   - Offer loyalty programs or discounts to encourage frequent visits.\n\n9. **Sustainability Initiatives**:\n   - Implement programs to reduce single-use plastics and encourage the use of reusable containers.\n   - Promote composting and recycling efforts within the cafeteria.\n\n10. **Staff Training and Customer Service**:\n    - Ensure staff are well-trained in customer service and food safety.\n    - Encourage a friendly and welcoming atmosphere among the cafeteria team.\n\nBy focusing on these areas, the NYU cafeteria can improve its offerings and create a more enjoyable and sustainable dining experience for everyone involved.', 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359995, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 484, 'prompt_tokens': 21, 'total_tokens': 505, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.0006425000000000001,2.5,93,1556.420233463035,10.0,41,"{'id': 'chatcmpl-DALwQak8AbUOte8kIZ84Dc8lejGbr', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': ""As an AI, I don't have personal experiences or preferences, so I can't select an option. However, I can help you evaluate the variety of food options based on certain criteria or provide information if needed."", 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 41, 'prompt_tokens': 93, 'total_tokens': 134, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",0.000505,2.5,86,1980.19801980198,10.0,29,"{'id': 'chatcmpl-DALwQuOXoyV9mdYgCwfh6mbIZ2lGP', 'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'message': {'content': 'Rarely or never\n\nI chose this option because I might prefer cooking at home, eating out at local restaurants, or bringing my own food.', 'refusal': None, 'role': 'assistant', 'annotations': [], 'audio': None, 'function_call': None, 'tool_calls': None}}], 'created': 1771359994, 'model': 'gpt-4o-2024-08-06', 'object': 'chat.completion', 'service_tier': 'default', 'system_fingerprint': 'fp_64dfa806c7', 'usage': {'completion_tokens': 29, 'prompt_tokens': 86, 'total_tokens': 115, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}}",,,,,,,,,,,,0,True,True,True,True,True,True,True,True,True,True,True

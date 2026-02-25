@@ -1,0 +1,1 @@
+Analyze EDSL Results. Use when the user wants to load results by UUID or file path, export survey documentation, generate visualizations, and produce a comprehensive HTML analysis report. The user should provide a UUID or path to a results.json.gz file.

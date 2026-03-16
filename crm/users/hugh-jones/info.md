@@ -1,0 +1,4 @@
+- **Email:** hugh@drumbeatlabs.com
+- **Signed up:** 2026-03-16
+- **Plan:** Free
+- **Notes:** Hugh Jones, co-founder at Drumbeat Labs (hellodrumbeat.com). Two-sided marketplace connecting creators with nonprofits/brands for short-form video campaigns. Introduced via Robin Horton outreach.

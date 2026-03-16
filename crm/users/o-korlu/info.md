@@ -1,0 +1,4 @@
+- **Email:** o.korlu@gmail.com
+- **Signed up:** 2026-03-16
+- **Plan:** Free
+- **Notes:** Özgenur Korlu. Istanbul-based political science PhD student at İstanbul Bilgi University. Also works at Sabancı University. Background in policy/data analysis in education sector (10 years). Interested in using AI in social science research. Found Expected Parrot via NBER paper (w31122). Wrote a public reflection on X about the tool. Interested in computational social science community in Turkey.
